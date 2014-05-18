@@ -1,0 +1,67 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$grid-gutter-width: 0;
+$font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'icons';
+@import 'component';
+
+p {
+    font-family: 'Merriweather' $font-family-serif;
+}
+
+// Front page
+.front-half {
+    height: 100%;
+    &.projects {
+        overflow-y: scroll;
+    }
+    &.about {
+        padding: 40px 45px 50px;
+    }
+}
+
+.adjust {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: 4.2em;
+    font-weight: 700;
+    width: 87%;
+    margin-bottom: 18px;
+}
+p {
+    color: #6e6e6e;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.project {
+    background-color: #ccc;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #333;
+    header {
+        width: 100%;
+        font-size: 2em;
+        font-family: $font-family-sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding-left: 33px;
+        padding-right: 33px;
+        p {
+            font-weight: normal;
+        }
+    }
+}
+
+@media screen and (max-width: $screen-sm) {
+    .front-half {
+        &.projects {
+            overflow-y: visible;
+        }
+    }
+}
