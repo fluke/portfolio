@@ -3,11 +3,18 @@ $grid-gutter-width: 0;
 $font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @import 'sass-bootstrap/lib/bootstrap';
-@import 'icons';
-@import 'component';
 
 p {
     font-family: 'Merriweather' $font-family-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a, a:hover, a:link, a:visited {
+    text-decoration: none;
 }
 
 // Front page
@@ -18,6 +25,14 @@ p {
     }
     &.about {
         padding: 40px 45px 50px;
+        p {
+            color: #6e6e6e;
+            line-height: 1.7;
+            font-size: 1.25em;
+        }
+    }
+    &.work {
+        padding: 60px 45px;
     }
 }
 
@@ -27,15 +42,27 @@ p {
 }
 
 h1 {
-    font-size: 4.2em;
-    font-weight: 700;
+    font-size: 4.5em;
+    font-weight: 900;
+    line-height: 1.1;
     width: 87%;
     margin-bottom: 18px;
 }
+
+h2 {
+    font-size: 3.5em;
+    font-weight: 900;
+    line-height: 1.1;
+    width: 87%;
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+}
+
 p {
+    font-size: 14px;
     color: #6e6e6e;
-    line-height: 1.7;
-    font-size: 16px;
+    line-height: 1.8;
+    font-size: 1.28em;
 }
 
 .project {
@@ -46,20 +73,62 @@ p {
     border-bottom: 1px solid #333;
     header {
         width: 100%;
-        font-size: 2em;
+        h3 {
+            font-size: 2em;
+            font-weight: bold;
+        }
         font-family: $font-family-sans-serif;
-        font-weight: bold;
         text-align: center;
         padding-left: 33px;
         padding-right: 33px;
-        p {
-            font-weight: normal;
+    }
+}
+
+.work {
+    .responsibilities {
+        padding: 0;
+        margin: 1em 0 0;
+        list-style: none;
+        li {
+            font-size: 1.27em;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+            letter-spacing: .1em;
+            color: #000;
+            .star {
+                background-image: url('../images/star.png');
+                width: 27px;
+                height: 27px;
+                display: inline-block;
+                background-size: contain;
+                margin: -12px 5px -7px -3px;
+            }
+        }
+    }
+    a {
+        display: inline-block;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        margin-bottom: 1em;
+        border-bottom: 3px solid;
+        color: #d62323;
+        border-color: #d62323;
+        padding: 3px 0;
+        border-width: 2px;
+        font-size: 1.21em;
+        &:hover {
+            border-width: 5px;
+            padding-bottom: 0;
         }
     }
 }
 
-@media screen and (max-width: $screen-sm) {
+@media screen and (max-width: $screen-md) {
     .front-half {
+        &.about {
+            height: auto;
+        }
         &.projects {
             overflow-y: visible;
         }
