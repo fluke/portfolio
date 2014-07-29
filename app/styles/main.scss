@@ -3,11 +3,12 @@ $grid-gutter-width: 0;
 $font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @import 'sass-bootstrap/lib/bootstrap';
+@import 'fonts';
 
 $red: #d62323;
 
 p {
-    font-family: 'Merriweather' $font-family-serif;
+    font-family: 'Merriweather', $font-family-serif;
 }
 
 html,
@@ -42,6 +43,12 @@ a, a:hover, a:link, a:visited {
     height: 100%;
     &.projects {
         overflow-y: scroll;
+        header.few {
+            color: #fff;
+            background-color: lighten($red, 10%);
+            text-transform: uppercase;
+            padding: 4px 10px;
+        }
     }
     &.about {
         padding: 30px 45px 50px;
@@ -67,6 +74,8 @@ h1 {
     line-height: 1.1;
     width: 87%;
     margin-bottom: 18px;
+    vertical-align: middle;
+    margin-right: 0;
 }
 
 h2 {
@@ -241,17 +250,51 @@ a.call {
     }
 }
 
+@media screen and (max-width: $screen-lg) {
+    .front-half {
+        &.about {
+            h1 {
+                width: 100%;
+                font-size: 4.1em;
+            }
+        }
+        &.projects {}
+    }
+}
+
 @media screen and (max-width: $screen-md) {
     .front-half {
         &.about {
             height: auto;
             padding-bottom: 150px;
+            h1 {
+                width: 100%;
+            }
             .main {
                 bottom: 30px;
             }
         }
         &.projects {
             overflow-y: visible;
+        }
+    }
+}
+
+@media screen and (max-width: $screen-xs) {
+    .front-half {
+        &.projects {
+            .info {
+                display: none;
+            }
+        }
+        &.about {
+            h1 {
+                font-size: 2.5em;
+                width: 100%;
+            }
+            p {
+                font-size: 1.1em;
+            }
         }
     }
 }

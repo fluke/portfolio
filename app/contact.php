@@ -2,16 +2,20 @@
 
 $EmailFrom = "luke@sizr.net";
 $EmailTo = "kartikdgr8@gmail.com";
-$Subject = "Website Form";
+$Subject = "Website Form: ";
 
-$Email = Trim(stripslashes($_POST['Email'])); 
-$Type = Trim(stripslashes($_POST['Type'])); 
+$Email = Trim(stripslashes($_POST['email'])); 
+$Subject .= Trim(stripslashes($_POST['subject']));
+$Name = Trim(stripslashes($_POST['name']));
+$Message = Trim(stripslashes($_POST['message']));
 
 // prepare email body text
 $Body .= "Email: ";
 $Body .= $Email;
-$Body .= "\nType: ";
-$Body .= $Type;
+$Body .= "\nName: ";
+$Body .= $Name;
+$Body .= "\nMessage: ";
+$Body .= $Message;
 
 // send email 
 mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
