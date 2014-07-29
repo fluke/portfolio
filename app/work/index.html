@@ -13,7 +13,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
-
+        <link rel="stylesheet" href="../bower_components/animate.css/animate.css">
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
@@ -22,7 +22,15 @@
         <script src="../bower_components/modernizr/modernizr.js"></script>
     </head>
     <body>
-        <div class="col-md-5 front-half work">
+        <div class="col-md-5 front-half work animated fadeInLeft">
+            <nav>
+                <div class="title">K. SINGH</div>
+                <ul>
+                    <li><a href="" title="">WORK</a></li>
+                    <li><a href="http://blog.kartikluke.com" title="">BLOG</a></li>
+                    <li><a href="" title="">CONTACT</a></li>
+                </ul>
+            </nav>
             <header>
                 <h2>JOBSPIRE</h2>
             </header>
@@ -30,7 +38,7 @@
                 <p>
                 We plan to break new ground with this web application that aims to bring a modern approach to searching for jobs. Focusing on company culture and trying to build a more user-centric job portal. Building off of user research we hope to improve the job experience. I will be taking point on this as lead developer. And this will be my main focus.
                 </p><br>
-                <a href="" title="">VISIT OUR LAUNCH SITE</a><br>
+                <a class="call" href="" title="">VISIT OUR LAUNCH SITE</a><br>
                 <!-- <a href="" title="">VIEW CASE STUDY</a> -->
                 <ul class="responsibilities">
                     <li><div class="star"></div>UX DESIGN</li>
@@ -39,8 +47,6 @@
                     <li><div class="star"></div>RUBY ON RAILS</li>
                 </ul>
             </section>
-            <div class="main clearfix">
-            </div>
         </div>
         <div class="col-md-7 front-half picture">
         </div>
@@ -54,12 +60,12 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-36517984-1');ga('send','pageview');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-36517984-1', 'auto');
+          ga('send', 'pageview');
         </script>
 
         <!-- build:js scripts/plugins.js -->

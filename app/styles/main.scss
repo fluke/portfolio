@@ -4,6 +4,8 @@ $font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @import 'sass-bootstrap/lib/bootstrap';
 
+$red: #d62323;
+
 p {
     font-family: 'Merriweather' $font-family-serif;
 }
@@ -11,10 +13,28 @@ p {
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 a, a:hover, a:link, a:visited {
     text-decoration: none;
+    color: inherit !important;
+}
+
+.main {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    padding: 2em 0;
+    bottom: 1.5em;
+    border: 1px solid #ccc;
+    text-align: center;
+    span {
+        letter-spacing: .2em;
+        color: $red;
+        padding: 3px 0;
+        font-size: 1em;
+    }
 }
 
 // Front page
@@ -24,7 +44,7 @@ a, a:hover, a:link, a:visited {
         overflow-y: scroll;
     }
     &.about {
-        padding: 40px 45px 50px;
+        padding: 30px 45px 50px;
         p {
             color: #6e6e6e;
             line-height: 1.7;
@@ -66,28 +86,125 @@ p {
 }
 
 .project {
-    background-color: #ccc;
-    height: 400px;
+    background-color: #333;
+    img {
+        max-width: 100%;
+        opacity: 0.33;
+    }
     width: 100%;
     position: relative;
     border-bottom: 1px solid #333;
     header {
         width: 100%;
+        position: absolute;
+        color: #fff;
         h3 {
             font-size: 2em;
             font-weight: bold;
+            margin-top: 0;
+            color: #fff;
         }
         font-family: $font-family-sans-serif;
         text-align: center;
-        padding-left: 33px;
-        padding-right: 33px;
+        padding-left: 45px;
+        padding-right: 45px;
+        p {
+            margin-bottom: 0;
+            color: #fff;
+        }
+    }
+}
+
+.title {
+    display: inline-block;
+    color: $red;
+    margin-left: 4px;
+}
+
+nav {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: inline-block;
+        li {
+            display: inline-block;
+            padding: 0 0 0 1em;
+            a {
+                display: inline-block;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: .2em;
+                border-bottom: 2px solid;
+                border-color: $red;
+                padding: 0 0 2px;
+                border-width: 2px;
+                font-size: 0.89em;
+                vertical-align: middle;
+                &:hover {
+                    border-width: 4px;
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    a {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 0;
+    }
+}
+
+a.call {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 1em;
+    border-bottom: 3px solid;
+    border-color: $red;
+    padding: 3px 0;
+    border-width: 2px;
+    font-size: 1.21em;
+    &:hover {
+        border-width: 5px;
+        padding-bottom: 0;
+    }
+}
+
+.form {
+    margin-top: 2em;
+    input, textarea {
+        width: 95%;
+        border: 1px solid #ccc;
+        padding: 15px;
+        font-size: 12px;
+        font-weight: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #333;
+        -webkit-transition: border 0.2s ease-out;
+        -moz-transition: border 0.2s ease-out;
+        -o-transition: border 0.2s ease-out;
+        -ms-transition: border 0.2s ease-out;
+        transition: border 0.2s ease-out;
+        vertical-align: middle;
+        &:hover {
+            border-color: #000;
+        }
+    }
+    textarea {
+        height: 177px;
     }
 }
 
 .work {
     .responsibilities {
         padding: 0;
-        margin: 1em 0 0;
+        margin: 0;
         list-style: none;
         li {
             font-size: 1.27em;
@@ -105,15 +222,15 @@ p {
             }
         }
     }
-    a {
+    a.call {
         display: inline-block;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: .2em;
         margin-bottom: 1em;
         border-bottom: 3px solid;
-        color: #d62323;
-        border-color: #d62323;
+        color: $red;
+        border-color: $red;
         padding: 3px 0;
         border-width: 2px;
         font-size: 1.21em;
@@ -128,6 +245,10 @@ p {
     .front-half {
         &.about {
             height: auto;
+            padding-bottom: 150px;
+            .main {
+                bottom: 30px;
+            }
         }
         &.projects {
             overflow-y: visible;
