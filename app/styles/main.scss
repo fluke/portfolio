@@ -107,6 +107,7 @@ p {
         width: 100%;
         position: absolute;
         color: #fff;
+        top:15%;
         h3 {
             font-size: 2em;
             font-weight: bold;
@@ -128,6 +129,14 @@ p {
     display: inline-block;
     color: $red;
     margin-left: 4px;
+}
+
+.success {
+    color: #71BC78!important;
+}
+
+.contact {
+    display: none;
 }
 
 nav {

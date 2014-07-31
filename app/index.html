@@ -31,14 +31,16 @@
                     <li><a class="contact-link" href="#contact" title="">CONTACT</a></li>
                 </ul>
             </nav>
-            <h1>Making the web a better place, one idea at a time.</h1>
+            <header  class="about-me">
+              <h1>Making the web a better place</h1>  
+            </header>
             <section class="about-me">
                 <p>
-                I build digital experiences for people. Using my skillset to solve problems is my passion. And I strive to make every project I undertake the best it can be - and I don't stop till I get there.
+                I'm Kartik, a web developer currently living in Manipal, IN and studying at the Manipal Institute of Technology. When I'm not composing code or brainstorming how to tackle that next issue, you'll find me reading, eating, or out playing basketball.
                 </p>
             </section>
             <div class="about-me main clearfix">
-                <span><b>1yrs</b> Graphic Design + <b>3yrs</b> Front End Dev + <b>1yr</b> Ruby on Rails</span>
+                <span><b>1yr</b> Graphic Design + <b>3yrs</b> Front End Dev + <b>2yrs</b> Ruby on Rails</span>
             </div>
             <header class="contact">
                 <h1>Interested in what you see?</h1>
@@ -50,16 +52,19 @@
             </section>
             <div class="contact form clearfix">
                 <form method="post" action="contact.php" id="contactForm" accept-charset="utf-8">
-                    <div class="col-xs-6">   
+                    <div class="col-sm-6">   
                         <input type="text" name="name" placeholder="Your Name">
                         <input type="text" name="email" placeholder="Your Email">
                         <input type="text" name="subject" placeholder="Subject">
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-sm-6">
                         <textarea placeholder="Your Message" name="message"></textarea>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-sm-6">
                         <input type="submit" value="SEND">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="error-msg"></div>
                     </div>
                 </form>
             </div>
@@ -95,32 +100,6 @@
                     <a class="call" href="http://sizr.net">Have a look</a>
                 </header>
             </article>
-            <!--
-            <article class="project">
-                <header data-align="vertical">
-                    <h3>Goodwork</h3>
-                    <p>This is a project we took up to help donors come in contact with NGOs and other organisations in need of certain goods. This may also help companies fulfill their corporate social responsibility.</p>
-                </header>
-            </article>
-            <article class="project">
-                <header data-align="vertical">
-                    <h3>Vaton</h3>
-                    <p>A prototype for a company that aims to bring students in contact with their coaches through a video commenting system.</p>
-                </header>
-            </article>
-            <article class="project">
-                <header data-align="vertical">
-                    <h3>Dreamdeal</h3>
-                    <p>A project that aims to create an online sales pipeline that can improve productivity.</p>
-                </header>
-            </article>
-            <article class="project">
-                <header data-align="vertical">
-                    <h3>RSS.com</h3>
-                    <p>Worked as an intern at RSS.com maintaining and adding features to the Ruby on Rails app.</p>
-                </header>
-            </article>
-            -->
         </div>
 
 
@@ -156,6 +135,7 @@
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/mousewheel.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
     </body>

@@ -14,6 +14,10 @@ jQuery(document).ready(function($) {
 	new Midway();
 	$(window).resize(Midway);
 
+	$('.about').mousewheel(function(event) {
+		$('.projects').scrollTop(($('.projects').scrollTop()) - event.deltaY*40);
+	});
+
 	function AnchorCheck() {
 		var anchor = window.location.hash.substring(1);
 		if(anchor === 'contact') { $('.about-me').hide(); }
@@ -41,19 +45,18 @@ jQuery(document).ready(function($) {
             $.post($(this).attr('action'),formInput,null)
             .done(function() {
                 console.log('Successfully sent mail.');
-                $('.error-msg').html('<span>Successfully sent mail.</span>');
                 $('.error-msg').addClass('success');
-                $('.error-msg').show();
+                $('.error-msg').html('<span>Successfully sent mail.</span>');
             })
             .fail(function(data) {
                 console.log('<span>Error in sending mail.</span>');
+                $('.error-msg').removeClass('success');
                 $('.error-msg').html(data);
-                $('.error-msg').show();
             });
         } else {
             console.log('Error in sending mail');
+            $('.error-msg').removeClass('success');
             $('.error-msg').html('<span>Email address is not valid.</span>');
-            $('.error-msg').show();
         }
     });
 	
