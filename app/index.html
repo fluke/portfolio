@@ -22,26 +22,45 @@
 
     </head>
     <body>
-        <div class="col-md-6 front-half about animated fadeInLeft">
+        <div class="col-md-10 col-md-offset-1 front-half about">
             <nav>
-                <div class="title"><a href="http://kartikluke.com">K. SINGH</a></div>
+                <div class="title"><a href="/#">KARTIK LUKE SINGH</a></div>
                 <ul>
                     <!-- <li><a href="" title="">WORK</a></li> -->
-                    <li><a href="http://blog.kartikluke.com" title="">BLOG</a></li>
+                    <li><a href="https://medium.com/@kartikluke" title="">BLOG</a></li>
                     <li><a class="contact-link" href="#contact" title="">CONTACT</a></li>
                 </ul>
             </nav>
             <header  class="about-me">
-              <h1>Making the web a better place</h1>  
+            <div class="col-md-6">
+                <h1 style="margin-top: 215px;">Building great products one step at a time</h1>
+            </div>
+            <div class="col-md-6">
+                <svg id="obt" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="500px" viewBox="-10 0 320 320" style="margin-top: 90px;">
+                    <g stroke="none" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" >
+                        <rect x="0" y="38" width="247" height="133"/>
+                        <rect x="20" y="223" width="196" height="79"/>
+                        <polyline points="105,83 75,103 105,123"/>
+                        <polyline points="145,83 175,103 145,123"/>
+                        <line x1="115" y1="138" x2="135" y2="68"/>
+
+                        <polyline points="219,34 219,3 300,3 300,166 250,166"/>
+                        <polyline points="130,171 130,200 70,200 70,223"/>
+                        <line x1="219" y1="18" x2="270" y2="18"/>
+                        <line x1="40" y1="243" x2="196" y2="243" />
+                        <line x1="40" y1="263" x2="166" y2="263" />
+                        <line x1="40" y1="283" x2="166" y2="283" />
+                        <circle cx="268" cy="110" r="17"/>
+                    </g>
+                </svg>
+            </div>
             </header>
             <section class="about-me">
-                <p>
-                I'm Kartik, a web developer currently living in Manipal, IN and studying at the Manipal Institute of Technology. When I'm not composing code or brainstorming how to tackle that next issue, you'll find me reading, eating, or out playing basketball.
-                </p>
+
+
+
             </section>
-            <div class="about-me main clearfix">
-                <span><b>1yr</b> Graphic Design + <b>3yrs</b> Front End Dev + <b>2yrs</b> Ruby on Rails</span>
-            </div>
+
             <header class="contact">
                 <h1>Interested in what you see?</h1>
             </header>
@@ -52,7 +71,7 @@
             </section>
             <div class="contact form clearfix">
                 <form method="post" action="contact.php" id="contactForm" accept-charset="utf-8">
-                    <div class="col-sm-6">   
+                    <div class="col-sm-6">
                         <input type="text" name="name" placeholder="Your Name">
                         <input type="text" name="email" placeholder="Your Email">
                         <input type="text" name="subject" placeholder="Subject">
@@ -69,7 +88,7 @@
                 </form>
             </div>
         </div>
-        <div class="col-md-6 front-half projects animated fadeInRight">
+        <div class="col-md-12 front-half projects animated fadeInRight">
             <header class="few">
                 <strong>A Few Of My Projects</strong>
             </header>
@@ -137,6 +156,7 @@
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/mousewheel.js"></script>
         <script src="scripts/main.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
         <!-- endbuild -->
     </body>
 </html>

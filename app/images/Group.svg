@@ -1,0 +1,62 @@
+<svg width="306" height="307" viewBox="0 0 306 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(140 502)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;isolation:isolate;" figma:type="frame">
+<g id="Top" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(-137 -461.5)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Bottom" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path1_stroke" transform="translate(-118 -276.5)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="CPU frame" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_stroke" transform="translate(82 -499.5)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path3_stroke" transform="translate(102 -483.5)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path4_stroke" transform="translate(111 -390)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Monitor Cable" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path5_stroke" transform="translate(-101 -326)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Mouse" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path6_stroke" transform="translate(116.5 -274.503)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 4" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path7_stroke" transform="translate(-116 -449.5)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 5" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path8_stroke" transform="translate(-114 -349)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 3" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path9_stroke" transform="matrix(1 -4.52783e-08 4.52783e-08 1 -109 -246)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 3" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path10_stroke" transform="translate(-109 -228)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 3" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path11_stroke" transform="translate(-108.5 -263)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 2" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path12_stroke" transform="translate(128 -267)" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0L 0 -2.5L -2.5 -2.5L -2.5 0L 0 0ZM 247 0L 249.5 0L 249.5 -2.5L 247 -2.5L 247 0ZM 247 133L 247 135.5L 249.5 135.5L 249.5 133L 247 133ZM 0 133L -2.5 133L -2.5 135.5L 0 135.5L 0 133ZM 0 2.5L 247 2.5L 247 -2.5L 0 -2.5L 0 2.5ZM 244.5 0L 244.5 133L 249.5 133L 249.5 0L 244.5 0ZM 247 130.5L 0 130.5L 0 135.5L 247 135.5L 247 130.5ZM 2.5 133L 2.5 0L -2.5 0L -2.5 133L 2.5 133Z"/>
+<path id="path1_stroke" d="M 0 0L 0 -2.5L -2.5 -2.5L -2.5 0L 0 0ZM 0 79L -2.5 79L -2.5 81.5L 0 81.5L 0 79ZM 196 79L 196 81.5L 198.5 81.5L 198.5 79L 196 79ZM 196 0L 198.5 0L 198.5 -2.5L 196 -2.5L 196 0ZM -2.5 0L -2.5 79L 2.5 79L 2.5 0L -2.5 0ZM 0 81.5L 196 81.5L 196 76.5L 0 76.5L 0 81.5ZM 198.5 79L 198.5 0L 193.5 0L 193.5 79L 198.5 79ZM 196 -2.5L 0 -2.5L 0 2.5L 196 2.5L 196 -2.5Z"/>
+<path id="path2_stroke" d="M 0 0L 0 -2.5L -2.5 -2.5L -2.5 0L 0 0ZM 81 0L 83.5 0L 83.5 -2.5L 81 -2.5L 81 0ZM 81 166L 81 168.5L 83.5 168.5L 83.5 166L 81 166ZM 2.5 34L 2.5 0L -2.5 0L -2.5 34L 2.5 34ZM 0 2.5L 81 2.5L 81 -2.5L 0 -2.5L 0 2.5ZM 78.5 0L 78.5 166L 83.5 166L 83.5 0L 78.5 0ZM 81 163.5L 31 163.5L 31 168.5L 81 168.5L 81 163.5Z"/>
+<path id="path3_stroke" d="M 0 2.5L 45 2.5L 45 -2.5L 0 -2.5L 0 2.5Z"/>
+<path id="path4_stroke" d="M 31.5 17C 31.5 25.0081 25.0081 31.5 17 31.5L 17 36.5C 27.7696 36.5 36.5 27.7696 36.5 17L 31.5 17ZM 17 31.5C 8.99187 31.5 2.5 25.0081 2.5 17L -2.5 17C -2.5 27.7696 6.23045 36.5 17 36.5L 17 31.5ZM 2.5 17C 2.5 8.99187 8.99187 2.5 17 2.5L 17 -2.5C 6.23045 -2.5 -2.5 6.23045 -2.5 17L 2.5 17ZM 17 2.5C 25.0081 2.5 31.5 8.99187 31.5 17L 36.5 17C 36.5 6.23045 27.7696 -2.5 17 -2.5L 17 2.5Z"/>
+<path id="path5_stroke" d="M 113.368 0.223201C 113.71 3.98361 113.544 9.31548 111.874 13.8363C 111.073 16.0787 110.126 17.7566 108.609 19.0599C 107.275 20.244 105.558 21 103.219 21L 103.219 26C 106.778 26 109.677 24.7976 111.928 22.7994C 113.997 20.9204 115.604 18.1921 116.576 15.5387C 118.452 10.2678 118.708 3.84973 118.348 -0.223201L 113.368 0.223201ZM 103.219 21C 91.4222 21 45.1291 21 19.5 21L 19.5 26C 45.1291 26 91.4222 26 103.219 26L 103.219 21ZM 19.5 23.5C 19.5 21 19.4985 21 19.4968 21C 19.4962 21 19.4945 21 19.4932 21C 19.4916 21 19.4878 21 19.4846 21C 19.4802 21.0001 19.4707 21.0001 19.462 21.0002C 19.4485 21.0003 19.4222 21.0007 19.3955 21.0012C 19.3501 21.0021 19.2695 21.0042 19.1807 21.0078C 19.0196 21.0143 18.7531 21.0291 18.4477 21.0551C 17.8721 21.105 16.9712 21.2152 15.9608 21.4161C 14.0176 21.8093 11.1739 22.6835 8.45973 24.2962C 2.80486 27.7036 -2.5 34.4081 -2.5 47L 2.5 47C 2.5 36.0919 6.94514 31.0464 11.0403 28.5788C 13.2011 27.254 15.2324 26.6595 16.9454 26.3182C 17.7632 26.152 18.3857 26.0786 18.8765 26.0367C 19.1043 26.0168 19.2567 26.0087 19.3814 26.0037C 19.4353 26.0015 19.4642 26.0008 19.4926 26.0002C 19.5028 26 19.5045 26 19.5098 26C 19.5104 26 19.5087 26 19.5083 26C 19.5091 26 19.5046 26 19.505 26C 19.5043 26 19.5031 26 19.5027 26C 19.5014 26 19.5 26 19.5 23.5Z"/>
+<path id="path6_stroke" d="M -2.5 13.5026L -2.5 61.5026L 2.5 61.5026L 2.5 13.5026L -2.5 13.5026ZM -2.5 61.5026C -2.5 67.0457 0.517805 71.1716 4.67669 73.8091C 8.77271 76.4068 14.0734 77.6566 19.2338 77.6901C 24.3927 77.7236 29.7059 76.5432 33.8168 73.9539C 38.004 71.3165 41 67.1488 41 61.5026L 36 61.5026C 36 65.1064 34.1835 67.8137 31.152 69.7232C 28.0441 71.6807 23.7323 72.7192 19.2662 72.6902C 14.8016 72.6612 10.4773 71.5671 7.35456 69.5867C 4.29469 67.6461 2.5 64.9595 2.5 61.5026L -2.5 61.5026ZM 41 61.5026L 41 13.5026L 36 13.5026L 36 61.5026L 41 61.5026ZM 41 13.5026C 41 8.05672 37.9532 3.9993 33.8135 1.4008C 29.7272 -1.16419 24.4377 -2.43024 19.2825 -2.49719C 14.1303 -2.5641 8.81585 -1.43675 4.69974 1.11131C 0.502053 3.70987 -2.5 7.85109 -2.5 13.5026L 2.5 13.5026C 2.5 9.90408 4.31045 7.23281 7.33151 5.36264C 10.4341 3.44196 14.7447 2.4443 19.2175 2.50239C 23.6873 2.56044 28.0228 3.66939 31.1553 5.63564C 34.2343 7.56837 36 10.1984 36 13.5026L 41 13.5026Z"/>
+<path id="path7_stroke" d="M 0 2.5L 52.5 2.5L 52.5 -2.5L 0 -2.5L 0 2.5Z"/>
+<path id="path8_stroke" d="M 0 2.5L 11.875 2.5L 11.875 -2.5L 0 -2.5L 0 2.5ZM 16.625 2.5L 40.375 2.5L 40.375 -2.5L 16.625 -2.5L 16.625 2.5ZM 45.125 2.5L 57 2.5L 57 -2.5L 45.125 -2.5L 45.125 2.5Z"/>
+<path id="path9_stroke" d="M 0 2.5L 7.90816 2.5L 7.90816 -2.5L 0 -2.5L 0 2.5ZM 14.2347 2.5L 30.051 2.5L 30.051 -2.5L 14.2347 -2.5L 14.2347 2.5ZM 36.3776 2.5L 52.1939 2.5L 52.1939 -2.5L 36.3776 -2.5L 36.3776 2.5ZM 58.5204 2.5L 74.3367 2.5L 74.3367 -2.5L 58.5204 -2.5L 58.5204 2.5ZM 80.6633 2.5L 96.4796 2.5L 96.4796 -2.5L 80.6633 -2.5L 80.6633 2.5ZM 102.806 2.5L 118.622 2.5L 118.622 -2.5L 102.806 -2.5L 102.806 2.5ZM 124.949 2.5L 140.765 2.5L 140.765 -2.5L 124.949 -2.5L 124.949 2.5ZM 147.092 2.5L 155 2.5L 155 -2.5L 147.092 -2.5L 147.092 2.5Z"/>
+<path id="path10_stroke" d="M 0 2.5L 7.1875 2.5L 7.1875 -2.5L 0 -2.5L 0 2.5ZM 12.9375 2.5L 27.3125 2.5L 27.3125 -2.5L 12.9375 -2.5L 12.9375 2.5ZM 33.0625 2.5L 47.4375 2.5L 47.4375 -2.5L 33.0625 -2.5L 33.0625 2.5ZM 53.1875 2.5L 67.5625 2.5L 67.5625 -2.5L 53.1875 -2.5L 53.1875 2.5ZM 73.3125 2.5L 87.6875 2.5L 87.6875 -2.5L 73.3125 -2.5L 73.3125 2.5ZM 93.4375 2.5L 107.812 2.5L 107.812 -2.5L 93.4375 -2.5L 93.4375 2.5ZM 113.563 2.5L 127.937 2.5L 127.937 -2.5L 113.563 -2.5L 113.563 2.5ZM 133.688 2.5L 148.062 2.5L 148.062 -2.5L 133.688 -2.5L 133.688 2.5ZM 153.812 2.5L 161 2.5L 161 -2.5L 153.812 -2.5L 153.812 2.5Z"/>
+<path id="path11_stroke" d="M 0 2.5L 7.70089 2.5L 7.70089 -2.5L 0 -2.5L 0 2.5ZM 13.8616 2.5L 29.2634 2.5L 29.2634 -2.5L 13.8616 -2.5L 13.8616 2.5ZM 35.4241 2.5L 50.8259 2.5L 50.8259 -2.5L 35.4241 -2.5L 35.4241 2.5ZM 56.9866 2.5L 72.3884 2.5L 72.3884 -2.5L 56.9866 -2.5L 56.9866 2.5ZM 78.5491 2.5L 93.9509 2.5L 93.9509 -2.5L 78.5491 -2.5L 78.5491 2.5ZM 100.112 2.5L 115.513 2.5L 115.513 -2.5L 100.112 -2.5L 100.112 2.5ZM 121.674 2.5L 137.076 2.5L 137.076 -2.5L 121.674 -2.5L 121.674 2.5ZM 143.237 2.5L 158.638 2.5L 158.638 -2.5L 143.237 -2.5L 143.237 2.5ZM 164.799 2.5L 172.5 2.5L 172.5 -2.5L 164.799 -2.5L 164.799 2.5Z"/>
+<path id="path12_stroke" d="M 11.5 9C 11.5 13.211 8.93698 15.5 7 15.5L 7 20.5C 12.795 20.5 16.5 14.7302 16.5 9L 11.5 9ZM 7 15.5C 5.06302 15.5 2.5 13.211 2.5 9L -2.5 9C -2.5 14.7302 1.20499 20.5 7 20.5L 7 15.5ZM 2.5 9C 2.5 4.78904 5.06302 2.5 7 2.5L 7 -2.5C 1.20499 -2.5 -2.5 3.26983 -2.5 9L 2.5 9ZM 7 2.5C 8.93698 2.5 11.5 4.78904 11.5 9L 16.5 9C 16.5 3.26983 12.795 -2.5 7 -2.5L 7 2.5Z"/>
+</defs>
+</svg>

@@ -14,9 +14,15 @@ jQuery(document).ready(function($) {
 	new Midway();
 	$(window).resize(Midway);
 
-	$('.about').mousewheel(function(event) {
-		$('.projects').scrollTop(($('.projects').scrollTop()) - event.deltaY*40);
-	});
+    var obt1 = new Vivus('obt', {
+        type: 'oneByOne',
+        duration: 200
+    });
+    obt1.stop().reset().play(1)
+
+	// $('.about').mousewheel(function(event) {
+	// 	$('.projects').scrollTop(($('.projects').scrollTop()) - event.deltaY*40);
+	// });
 
 	function AnchorCheck() {
 		var anchor = window.location.hash.substring(1);
@@ -59,5 +65,5 @@ jQuery(document).ready(function($) {
             $('.error-msg').html('<span>Email address is not valid.</span>');
         }
     });
-	
+
 });

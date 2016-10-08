@@ -11,6 +11,10 @@ p {
     font-family: 'Merriweather', $font-family-serif;
 }
 
+svg path {
+    stroke: lighten($red, 5%);
+}
+
 html,
 body {
     height: 100%;
@@ -42,10 +46,9 @@ a, a:hover, a:link, a:visited {
 .front-half {
     height: 100%;
     &.projects {
-        overflow-y: scroll;
         header.few {
             color: #fff;
-            background-color: lighten($red, 10%);
+            background-color: lighten($red, 5%);
             text-transform: uppercase;
             padding: 4px 10px;
         }
