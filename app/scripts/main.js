@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
 
     var obt1 = new Vivus('obt', {
         type: 'oneByOne',
-        duration: 200
+        duration: 190
     });
     obt1.stop().reset().play(1)
 
